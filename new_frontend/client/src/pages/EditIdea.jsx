@@ -25,20 +25,20 @@ const formats = [
     'link', 'image',
   ]
 
-  const POST_CATEGORIES = ["Invention", "Business", "Education", "Entertainment", "Art", "Investment", "Uncategorized", "entrepreneurship"]
+  const IDEA_CATEGORIES = ["Invention", "Business", "Education", "Entertainment", "Art", "Investment", "Uncategorized", "Entrepreneurship"]
 
   return (
-<section className="create-post">
+<section className="create-idea">
   <div className="container">
-    <h2>Edit Post</h2>
+    <h2>Edit Idea</h2>
     <p className="form_error-message">
       This is an error message
     </p>
-    <form className="form create-post_form">
+    <form className="form create-idea_form">
     <input type="text" placeholder='Title' value={title} onChange={e => setTitle(e.target.value)} autoFocus />
     <select name="category" value={category} onChange={e => setCategory(e.target.value)}>
     {
-      POST_CATEGORIES.map(cat => <option key={cat}>{cat}</option>)
+      IDEA_CATEGORIES.map(cat => <option key={cat}>{cat}</option>)
     }
     </select>
 <ReactQuill modules={modules} formats={formats} value={description} onChange={setDescription}/>
