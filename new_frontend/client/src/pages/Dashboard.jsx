@@ -3,7 +3,7 @@ import { DUMMY_Ideas } from '../data'
 import { Link } from 'react-router-dom'
 
 const Dashboard = () => {
-  const [Ideas, setPost] = useState(DUMMY_Ideas)
+  const [Ideas, setIdeas] = useState(DUMMY_Ideas)
   
   
   return (
@@ -12,19 +12,19 @@ const Dashboard = () => {
     Ideas.length ? <div className="container dashboard_container">
 
     {
-      Ideas.map(post => {
-        return <article key={post.id} className='dashboard_post'>
-          <div className="dashboard_post-info"> 
-            <div className="dashboard_post-thumbnail">
-              <img src={post.thumbnail} alt="" />
+      Ideas.map(idea => {
+        return <article key={idea.id} className='dashboard_idea'>
+          <div className="dashboard_idea-info"> 
+            <div className="dashboard_idea-thumbnail">
+              <img src={idea.thumbnail} alt="" />
             </div>
-            <h5>{post.title}</h5>
+            <h5>{idea.title}</h5>
           </div>
 
-          <div className="dashboard_post-actions"> 
-          <Link to={`/Ideas/${post.id}`} className='btn sm'>View</Link>
-          <Link to={`/Ideas/${post.id}/edit`} className='btn sm primary'>Edit</Link>
-          <Link to={`/Ideas/${post.id}/delete`} className='btn sm danger'>Delete</Link>
+          <div className="dashboard_idea-actions"> 
+          <Link to={`/Ideas/${idea.id}`} className='btn sm'>View</Link>
+          <Link to={`/Ideas/${idea.id}/edit`} className='btn sm primary'>Edit</Link>
+          <Link to={`/Ideas/${idea.id}/delete`} className='btn sm danger'>Delete</Link>
 
           </div>
         </article>
