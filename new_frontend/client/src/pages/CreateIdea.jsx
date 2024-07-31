@@ -25,7 +25,7 @@ const formats = [
     'link', 'image',
   ]
 
-  const POST_CATEGORIES = ["Invention", "Business", "Education", "Entertainment", "Art", "Investment", "Uncategorized", "entrepreneurship"]
+  const POST_CATEGORIES = ["Invention", "Business", "Education", "Entertainment", "Art", "Investment", "Uncategorized", "Entrepreneurship"]
 
   return (
 <section className="create-post">
