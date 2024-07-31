@@ -201,11 +201,16 @@ footer {
 }
 
 .footer_categories {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  flex-direction: row; /* Change from column to row */
+  bottom: 0;
+  width: 100%;
+  background-color: var(--footer-background-color); /* Set a background color if desired */
+  padding: 1rem; /* Add padding for better spacing */
 }
 
 .footer_categories a {
@@ -228,6 +233,9 @@ footer {
     color: var(--color-white);
     font-weight: 300;
 }
+
+
+
 
 .center {
 text-align: center;
@@ -397,6 +405,8 @@ margin-bottom: 1rem;
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
 }
+
+
 
 .author {
     background: var(--color-white);
@@ -582,11 +592,6 @@ margin-bottom: 1rem;
     }
 
 
-
-
-
-
-
 .nav_menu li a {
     display: block;
     background: var(--color-white);
@@ -601,14 +606,19 @@ margin-bottom: 1rem;
 }
 
 
+
+
+
+
+
+
+
+
 .Ideas_container {
     grid-template-columns: 1fr;
     gap: 1rem;
 }
 
-.footer_categories {
-    flex-direction: column;
-}
 
 .idea-detail {
     width: 100%;
@@ -626,10 +636,6 @@ margin-bottom: 1rem;
     width: 100%;
 }
 
-.authors_container {
-    grid-template-columns: 1fr;
-    gap: 1.2rem;
-}
 
 .dashboard_idea {
     flex-direction: column;

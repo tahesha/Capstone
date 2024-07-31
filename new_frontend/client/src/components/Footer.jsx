@@ -13,7 +13,7 @@ const Footer = () => {
     <li><Link to="/ideas/categories/Art">Art</Link></li>
     <li><Link to="/ideas/categories/Investment">Investment</Link></li>
     <li><Link to="/ideas/categories/Uncategorized">Uncategorized</Link></li>
-    <li><Link to="/ideas/categories/entrepreneurship">entrepreneurship</Link></li>
+    <li><Link to="/ideas/categories/entrepreneurship">Entrepreneurship</Link></li>
   
 </ul>
 <div className='footer_copyright'>

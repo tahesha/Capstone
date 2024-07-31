@@ -35,7 +35,7 @@ const Header = () => {
         {isNavShowing &&
           <ul className="nav_menu">
             <li><Link to="/profile/sdfsdf" onClick={closeNavHandler}>Kenya Laren</Link></li>
-            <li><Link to="/create" onClick={closeNavHandler}>Create Post</Link></li>
+            <li><Link to="/create" onClick={closeNavHandler}>Create Idea</Link></li>
             <li><Link to="/authors" onClick={closeNavHandler}>Authors</Link></li>
             <li><Link to="/logout" onClick={closeNavHandler}>Logout</Link></li>
           </ul>}
