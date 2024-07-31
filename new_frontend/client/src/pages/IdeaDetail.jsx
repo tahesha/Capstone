@@ -6,17 +6,17 @@ import Thumbnail from '../images/blog22.jpg'
 const IdeaDetail = () => {
   return (
 <section className="IdeaDetail">
-<div className="container post-detail_container">
-  <div className="post-detail_header">
+<div className="container idea-detail_container">
+  <div className="idea-detail_header">
     <IdeaAuthor/>
-    <div className="post-detail_buttons">
+    <div className="idea-detail_buttons">
 <Link to={`/Ideas/werwer/edit`} className='btn sm primary'>Edit</Link>
 <Link to={`/Ideas/werwer/delete`} className='btn sm danger'>Delete</Link>
     </div>
   </div>
 
-<h1>This is the post title!</h1>
-<div className="post-detail_thumbnail">
+<h1>This is the idea title!</h1>
+<div className="idea-detail_thumbnail">
   <img src={Thumbnail} alt="" />
 </div>
 <p>
