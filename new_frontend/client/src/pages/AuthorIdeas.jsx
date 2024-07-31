@@ -2,11 +2,11 @@ import React, {useState} from 'react'
 import { DUMMY_Ideas } from '../data'
 import IdeaItem from '../components/IdeaItem'
 
-const CategoryIdeas = () => {
+const AuthorIdeas = () => {
   const [Ideas, setIdeas] = useState(DUMMY_Ideas)
   return (
-    <section>
-    {Ideas.length > 0 ? <div className="container post_container">
+    <section className="Ideas">
+    {Ideas.length > 0 ? <div className="container Ideas_container">
               {
                   Ideas.map(({ id, thumbnail, category, title, desc, authorID }) =>
                       <IdeaItem key={id} postID={id} thumbnail={thumbnail} category={category} title={title} description={desc} authorID={authorID} />)
@@ -17,4 +17,4 @@ const CategoryIdeas = () => {
   )
 }
 
-export default CategoryIdeas
+export default AuthorIdeas
