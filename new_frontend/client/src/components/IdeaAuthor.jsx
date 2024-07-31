@@ -4,11 +4,11 @@ import Avatar from '../images/avatar1.jpg'
 
 const IdeaAuthor = () => {
   return (
-<Link to={`/Ideas/users/sdfsdf`} className='post_author'>
-<div className="post_author-avatar">
+<Link to={`/Ideas/users/sdfsdf`} className='idea_author'>
+<div className="idea_author-avatar">
     <img src={Avatar} alt="" />
 </div>
-<div className="post_author-deatails">
+<div className="idea_author-deatails">
     <h5>By: Kenya Laren</h5>
     <small>Just Now</small>
 </div>

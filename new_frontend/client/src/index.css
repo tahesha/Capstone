@@ -285,13 +285,13 @@ margin: 1rem 0 0.6rem
     margin-top: 2rem;
 }
 
-.post_author {
+.idea_author {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
 }
 
-.post_author-avatar {
+.idea_author-avatar {
     width: 2.5rem;
     aspect-ratio: 1/1;
     border-radius: var(--radius-2);
