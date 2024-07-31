@@ -9,7 +9,7 @@ const IdeaAuthor = () => {
     <img src={Avatar} alt="" />
 </div>
 <div className="post_author-deatails">
-    <h5>By: Ernest Achiever</h5>
+    <h5>By: Kenya Laren</h5>
     <small>Just Now</small>
 </div>
 </Link>

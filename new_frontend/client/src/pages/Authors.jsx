@@ -7,7 +7,7 @@ import Avatar5 from '../images/avatar5.jpg'
 import { Link } from 'react-router-dom'
 
 const authorsData = [
-{id: 1, avatar: Avatar1, name: 'Ernest Achiever', Ideas: 3},
+{id: 1, avatar: Avatar1, name: 'Kenya Laren', Ideas: 3},
 {id: 2, avatar: Avatar2, name: 'Jane Doe', Ideas: 5},
 {id: 3, avatar: Avatar3, name: 'Dramani Mahama', Ideas: 0},
 {id: 4, avatar: Avatar4, name: 'Nana Addo', Ideas: 2},

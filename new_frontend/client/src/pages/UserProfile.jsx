@@ -33,7 +33,7 @@ return (
         <button className="profile_avatar-btn"><FaCheck/></button>
       </div>
 
-      <h1>Ernest Achiever</h1>
+      <h1>Kenya Laren</h1>
 
         {/*Form to update user details*/}
         <form action="" className="form profile_form">
